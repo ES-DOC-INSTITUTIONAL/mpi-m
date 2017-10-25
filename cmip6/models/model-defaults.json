@@ -1,0 +1,92 @@
+{
+    "mpiesm-1-2-hr": {
+        "aerosol": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "atmos": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "land": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "landice": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocean": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "seaice": {
+            "initializedFrom": "", 
+            "name": ""
+        }
+    }, 
+    "mpiesm-1-2-lr": {
+        "aerosol": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "atmos": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "land": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "landice": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocean": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "seaice": {
+            "initializedFrom": "", 
+            "name": ""
+        }
+    }, 
+    "mpiesm-2-lr": {
+        "aerosol": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "atmos": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "land": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "landice": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocean": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "seaice": {
+            "initializedFrom": "", 
+            "name": ""
+        }
+    }
+}
