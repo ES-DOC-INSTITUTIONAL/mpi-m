@@ -1,5 +1,5 @@
 {
-    "mpiesm-1-2-hr": {
+    "icon-esm-lr": {
         "aerosol": {
             "initializedFrom": "", 
             "name": ""
@@ -29,7 +29,7 @@
             "name": ""
         }
     }, 
-    "mpiesm-1-2-lr": {
+    "mpi-esm-1-2-hr": {
         "aerosol": {
             "initializedFrom": "", 
             "name": ""
@@ -59,7 +59,7 @@
             "name": ""
         }
     }, 
-    "mpiesm-2-lr": {
+    "mpi-esm-1-2-lr": {
         "aerosol": {
             "initializedFrom": "", 
             "name": ""
