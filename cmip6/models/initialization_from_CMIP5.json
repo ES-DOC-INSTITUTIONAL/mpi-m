@@ -1,5 +1,8 @@
 {
     "icon-esm-lr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -19,13 +22,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
-    "mpi-esm-1-2-hr": {
+    "mpi-esm1-2-hr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -45,13 +48,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
-    "mpi-esm-1-2-lr": {
+    "mpi-esm1-2-lr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -71,9 +74,6 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }
