@@ -1,0 +1,114 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mpi-m", 
+    "seedingSource": "cmip5:mpi-esm-lr", 
+    "sourceID": "mpi-esm1-2-lr", 
+    "topic": "ocnbgchem", 
+    "content": {
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.atmospheric_deposition": {
+            "values": [
+                "from Atmospheric Chemistry model"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.carbon_chemistry.ph_scale": {
+            "values": [
+                "Free"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_type": {
+            "values": [
+                "Other: wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_type": {
+            "values": [
+                "Wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_type": {
+            "values": [
+                "Wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_type": {
+            "values": [
+                "Wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_type": {
+            "values": [
+                "Other: wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.name": {
+            "values": [
+                "Hamburg Model of Ocean Carbon Cycle"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.overview": {
+            "values": [
+                "HAMOCC is a sub-model that simulates biogeochemical tracers in the oceanic water column and in the sediment.  All biogeochemical tracers are fully advected and mixed by the hosting OGCM (MPIOM). The biogeochemical model itself is driven by the same radiation as the OGCM to compute photosynthesis. Temperature and salinity are used to calculate various transformation rates and constants e.g., for solubility of carbon dioxide."
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.prognostic_variables": {
+            "values": [
+                "Total dissolved inorganic 12C kmol C m\u22123"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.method": {
+            "values": [
+                "use ocean model transport time step"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.disolved_organic_matter.lability": {
+            "values": [
+                "Other: yes"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.phytoplankton.type": {
+            "values": [
+                "Generic"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.zooplankton.type": {
+            "values": [
+                "Generic"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.particules.method": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.sulfur_cycle_present": {
+            "values": [
+                true
+            ]
+        }
+    }
+}

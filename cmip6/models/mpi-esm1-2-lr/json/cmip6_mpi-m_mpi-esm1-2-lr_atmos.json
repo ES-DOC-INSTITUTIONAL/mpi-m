@@ -1,0 +1,312 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mpi-m", 
+    "seedingSource": "cmip5:mpi-esm-lr", 
+    "sourceID": "mpi-esm1-2-lr", 
+    "topic": "atmos", 
+    "content": {
+        "cmip6.atmos.cloud_scheme.optical_cloud_properties.cloud_overlap_method": {
+            "values": [
+                "maximum"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.processes": {
+            "values": [
+                "Other: microphysics scheme (based on lohmann and reockner, 1996):          - single moment bulk microphysics scheme         - prognostic cloud liquid water, cloud ice         - diagnostic snow, rain fluxes                    - condensation/evaporation         - vapor deposition/sublimation         - freezing/melting         - autoconversion of cloud droplets to rain         - aggregation of cloud ice to form snow         - accretion of droplets by rain         - accretion of droplets by snow         - accretion of cloud ice by snow          - sedimentation of rain, snow, cloud ice                 moist convection scheme (based on nordeng, 1994):         - single plume bulk mass flux scheme         - different entrainment and detrainment formulations            for deep and shallow convection         - momentum transport         - cape adjustment type closure         cloud cover scheme (based on sundqvist, 1978):         - diagnostic         - rh-based (sundqvist-type)"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_name": {
+            "values": [
+                "RH - Scheme (uniform qt distribution)"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
+            "values": [
+                "diagnostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
+            "values": [
+                "Yes"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.conserved_quantities": {
+            "values": [
+                "Other: ."
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conservation_method": {
+            "values": [
+                "conservation fixer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
+            "values": [
+                "Other: tracers"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+            "values": [
+                "finite volume"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_name": {
+            "values": [
+                "Other: lin & rood (96)"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
+            "values": [
+                "Spectral"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.prognostic_variables": {
+            "values": [
+                "divergence/curl", 
+                "surface pressure", 
+                "temperature", 
+                "Other: cloud liquid water", 
+                "Other: cloud ice", 
+                "water vapour", 
+                "Other: vorticity"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.timestepping_type": {
+            "values": [
+                "semi-implicit"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_boundary_condition": {
+            "values": [
+                "sponge layer"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
+            "values": [
+                "effect on drag"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "spectral"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "hydrostatic"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "ECHAM6 atmospheric global general circulation model"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "Other: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                600
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "cloud droplets", 
+                "cloud ice", 
+                "effect of graupel", 
+                "effect of raindrops", 
+                "effect of snow", 
+                "ice nucleation", 
+                "mixed phase", 
+                "water vapour deposition"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
+            "values": [
+                "Microphysics scheme (based on Lohmann and Reockner, 1996)"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "liquid rain", 
+                "snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
+            "values": [
+                "Lohmann and Reockner, 1996 coupled to Sundqvist"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.computation_method": {
+            "values": [
+                "Other: bretangon & francon (1988)"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.transient_method": {
+            "values": [
+                "Exact calculated for every radiation timestep"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+            "values": [
+                "transient"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
+            "values": [
+                "CMIP5 /SOLARIS"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "transient"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_implementation": {
+            "values": [
+                "stratospheric aerosols optical thickness"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_grid_points": {
+            "values": [
+                866304
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_levels": {
+            "values": [
+                47
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_sub_columns": {
+            "values": [
+                12
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.run_configuration": {
+            "values": [
+                "Inline"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_direction": {
+            "values": [
+                "highest altitude level"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_estimation_method": {
+            "values": [
+                "IR brightness", 
+                "visible optical depth"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.lidar_inputs.ice_types": {
+            "values": [
+                "ice spheres"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.lidar_inputs.overlap": {
+            "values": [
+                "max"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.effective_radius": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.frequency": {
+            "values": [
+                94.0
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.gas_absorption": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.type": {
+            "values": [
+                "space borne"
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "Other: black carbon / soot", 
+                "dust", 
+                "sea salt", 
+                "sulphate"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
+            "values": [
+                "Other: k-correlated (rrtm)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                16
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "layer interaction"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
+            "values": [
+                "wide-band model"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                14
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
+            "values": [
+                "TKE coupled with water"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "detrainment", 
+                "entrainment", 
+                "penetrative convection", 
+                "updrafts"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
+            "values": [
+                "CAPE", 
+                "bulk"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
+            "values": [
+                "Tiedtke / Nordeng (Nordeng, 1994)"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }
+    }
+}
