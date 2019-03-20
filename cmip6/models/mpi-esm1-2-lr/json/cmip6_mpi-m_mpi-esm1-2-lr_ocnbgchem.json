@@ -1,70 +1,10 @@
 {
     "mipEra": "cmip6", 
     "institute": "mpi-m", 
-    "seedingSource": "cmip5:mpi-esm-lr", 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "mpi-esm1-2-lr", 
     "topic": "ocnbgchem", 
     "content": {
-        "cmip6.ocnbgchem.key_properties.boundary_forcing.atmospheric_deposition": {
-            "values": [
-                "from Atmospheric Chemistry model"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.carbon_chemistry.ph_scale": {
-            "values": [
-                "Free"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_type": {
-            "values": [
-                "Other: wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_type": {
-            "values": [
-                "Wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_type": {
-            "values": [
-                "Wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_type": {
-            "values": [
-                "Wanninkhof"
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_present": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_type": {
-            "values": [
-                "Other: wanninkhof"
-            ]
-        }, 
         "cmip6.ocnbgchem.key_properties.name": {
             "values": [
                 "Hamburg Model of Ocean Carbon Cycle"
@@ -82,12 +22,72 @@
         }, 
         "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.method": {
             "values": [
-                "use ocean model transport time step"
+                "Use ocean model transport time step"
             ]
         }, 
-        "cmip6.ocnbgchem.tracers.disolved_organic_matter.lability": {
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.atmospheric_deposition": {
             "values": [
-                "Other: yes"
+                "From Atmospheric Chemistry model"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_type": {
+            "values": [
+                "Other: wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_type": {
+            "values": [
+                "Other: wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_type": {
+            "values": [
+                "Wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_type": {
+            "values": [
+                "Wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_type": {
+            "values": [
+                "Wanninkhof"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.carbon_chemistry.ph_scale": {
+            "values": [
+                "Free"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.sulfur_cycle_present": {
+            "values": [
+                true
             ]
         }, 
         "cmip6.ocnbgchem.tracers.ecosystem.phytoplankton.type": {
@@ -100,14 +100,14 @@
                 "Generic"
             ]
         }, 
+        "cmip6.ocnbgchem.tracers.disolved_organic_matter.lability": {
+            "values": [
+                "Other: yes"
+            ]
+        }, 
         "cmip6.ocnbgchem.tracers.particules.method": {
             "values": [
                 "Prognostic"
-            ]
-        }, 
-        "cmip6.ocnbgchem.tracers.sulfur_cycle_present": {
-            "values": [
-                true
             ]
         }
     }

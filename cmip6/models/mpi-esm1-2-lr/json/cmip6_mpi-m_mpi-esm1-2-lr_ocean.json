@@ -1,79 +1,43 @@
 {
     "mipEra": "cmip6", 
     "institute": "mpi-m", 
-    "seedingSource": "cmip5:mpi-esm-lr", 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "mpi-esm1-2-lr", 
     "topic": "ocean", 
     "content": {
-        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+        "cmip6.ocean.key_properties.name": {
             "values": [
-                true
+                "Max - Planck Institute Ocean Model in low resolution"
             ]
         }, 
-        "cmip6.ocean.advection.lateral_tracers.name": {
+        "cmip6.ocean.key_properties.overview": {
             "values": [
-                "Total Variance Dissipation (TVD)"
+                "The Max- Planck- Institute ocean model (MPIOM) is the ocean- sea ice component of the Max- Planck- Institute climate model (Roeckner et al., 2006; Jungclaus et al., 2006)._x000D_\nIt includes an embedded dynamic/ thermodynamic sea ice model with a viscous- plastic rheology following Hibler (1979) and a bottom boundary layer scheme for the flow across steep topography. A model descriptin can be found at Marsland et al. (2003). _x000D_\nFurthermore the ocean biogeochemical modul HAMOCC is an integrated module of the MPI-OM code, but can run stand alone."
             ]
         }, 
-        "cmip6.ocean.advection.momentum.scheme_name": {
+        "cmip6.ocean.key_properties.model_family": {
             "values": [
-                "TVD"
-            ]
-        }, 
-        "cmip6.ocean.advection.momentum.type": {
-            "values": [
-                "Flux form"
-            ]
-        }, 
-        "cmip6.ocean.advection.vertical_tracers.flux_limiter": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.advection.vertical_tracers.name": {
-            "values": [
-                "TVD"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
-            "values": [
-                "Non-linear"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type": {
-            "values": [
-                "No-slip"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
-            "values": [
-                "No"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
-            "values": [
-                "Other: 2 extinction depths"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.scheme": {
-            "values": [
-                "Other: finite differences"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.type": {
-            "values": [
-                "Other: curvelinear, bipolar"
+                "OGCM"
             ]
         }, 
         "cmip6.ocean.key_properties.basic_approximations": {
             "values": [
                 "Boussinesq", 
                 "Primitive equations"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.prognostic_variables": {
+            "values": [
+                "Potential temperature", 
+                "SSH: Sea Surface Height", 
+                "Salinity", 
+                "U-velocity", 
+                "V-velocity"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Other: fixed"
             ]
         }, 
         "cmip6.ocean.key_properties.bathymetry.reference_dates": {
@@ -86,16 +50,6 @@
                 true
             ]
         }, 
-        "cmip6.ocean.key_properties.model_family": {
-            "values": [
-                "OGCM"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.name": {
-            "values": [
-                "Max - Planck Institute Ocean Model in low resolution"
-            ]
-        }, 
         "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
             "values": [
                 "No"
@@ -106,28 +60,54 @@
                 "Freshwater"
             ]
         }, 
-        "cmip6.ocean.key_properties.overview": {
+        "cmip6.ocean.grid.discretisation.horizontal.type": {
             "values": [
-                "The Max- Planck- Institute ocean model (MPIOM) is the ocean- sea ice component of the Max- Planck- Institute climate model (Roeckner et al., 2006; Jungclaus et al., 2006).\r\nIt includes an embedded dynamic/ thermodynamic sea ice model with a viscous- plastic rheology following Hibler (1979) and a bottom boundary layer scheme for the flow across steep topography. A model descriptin can be found at Marsland et al. (2003). \r\nFurthermore the ocean biogeochemical modul HAMOCC is an integrated module of the MPI-OM code, but can run stand alone."
+                "Other: curvelinear, bipolar"
             ]
         }, 
-        "cmip6.ocean.key_properties.prognostic_variables": {
+        "cmip6.ocean.timestepping_framework.tracers.scheme": {
             "values": [
-                "Potential temperature", 
-                "SSH", 
-                "Salinity", 
-                "U-velocity", 
-                "V-velocity"
+                "Other: total variance dissipation (tvd)"
             ]
         }, 
-        "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
+        "cmip6.ocean.advection.momentum.type": {
             "values": [
-                "Other: fixed"
+                "Flux form"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
+        "cmip6.ocean.advection.momentum.scheme_name": {
             "values": [
-                "."
+                "TVD"
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.name": {
+            "values": [
+                "Total Variance Dissipation (TVD)"
+            ]
+        }, 
+        "cmip6.ocean.advection.vertical_tracers.name": {
+            "values": [
+                "TVD"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.operator.direction": {
+            "values": [
+                "Geopotential"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.operator.order": {
+            "values": [
+                "Bi-harmonic: Fourth order"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
+            "values": [
+                "Other: flux limited"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
@@ -140,39 +120,9 @@
                 "Grid distance"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.momentum.operator.direction": {
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
             "values": [
-                "Geopotential"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
-            "values": [
-                "Other: flux limited"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.momentum.operator.order": {
-            "values": [
-                "Bi-harmonic"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
-            "values": [
-                "Space varying"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.variable_coefficient": {
-            "values": [
-                "Grid distance"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
-            "values": [
-                "Advective flux"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
-            "values": [
-                "GM"
+                "."
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.mesoscale_closure": {
@@ -185,42 +135,37 @@
                 "Isopycnal"
             ]
         }, 
+        "cmip6.ocean.lateral_physics.tracers.operator.order": {
+            "values": [
+                "Harmonic: Second order"
+            ]
+        }, 
         "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
             "values": [
                 "Other: flux limited"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.operator.order": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
             "values": [
-                "Harmonic"
+                "Space varying"
             ]
         }, 
-        "cmip6.ocean.timestepping_framework.tracers.scheme": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.variable_coefficient": {
             "values": [
-                "Other: total variance dissipation (tvd)"
+                "Grid distance"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.sill_overflow": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
             "values": [
-                "No specific treatment"
+                "GM: Gent & McWilliams"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
             "values": [
-                "Other: advective"
+                "Advective flux"
             ]
         }, 
-        "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
-            "values": [
-                "Linear implicit"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
-            "values": [
-                "5.E-5"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
             "values": [
                 "Other: richardson number dependent (pp)"
             ]
@@ -230,9 +175,14 @@
                 "1.05E-5"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
             "values": [
                 "Other: richardson number dependent (pp)"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+            "values": [
+                "5.E-5"
             ]
         }, 
         "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type": {
@@ -240,12 +190,7 @@
                 "Enhanced vertical diffusion"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.background": {
-            "values": [
-                "5.E-5"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
+        "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
             "values": [
                 "Other: richardson number dependent (pp)"
             ]
@@ -255,9 +200,44 @@
                 "5.E-5"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
             "values": [
                 "Other: richardson number dependent (pp)"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
+            "values": [
+                "Linear implicit"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+            "values": [
+                "Other: advective"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
+            "values": [
+                "No"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
+            "values": [
+                "Non-linear"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type": {
+            "values": [
+                "No-slip"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
+            "values": [
+                "Other: 2 extinction depths"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
+            "values": [
+                true
             ]
         }
     }
