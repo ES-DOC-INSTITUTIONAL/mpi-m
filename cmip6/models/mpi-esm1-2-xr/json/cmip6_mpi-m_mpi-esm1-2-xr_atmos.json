@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "mpi-m", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "mpi-esm1-2-xr", 
+    "topic": "atmos", 
+    "content": {}
+}
