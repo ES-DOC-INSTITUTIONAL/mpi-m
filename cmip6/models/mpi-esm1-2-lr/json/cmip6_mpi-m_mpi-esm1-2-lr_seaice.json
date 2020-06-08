@@ -5,54 +5,9 @@
     "sourceID": "mpi-esm1-2-lr", 
     "topic": "seaice", 
     "content": {
-        "cmip6.seaice.key_properties.name": {
-            "values": [
-                "MPIOM SeaIceComponent"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.overview": {
-            "values": [
-                "Sea ice component is included in MPI-OM,_x000D_\nIt includes an embedded dynamic/ thermodynamic sea ice model with a viscous- plastic rheology following Hibler (1979)"
-            ]
-        }, 
-        "cmip6.seaice.key_properties.variables.prognostic": {
-            "values": [
-                "Other: velocity, thickness, sea ice concentration, snow depth"
-            ]
-        }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
                 "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
-            ]
-        }, 
-        "cmip6.seaice.dynamics.transport_in_thickness_space": {
-            "values": [
-                "Eulerian"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.overview": {
-            "values": [
-                "Dynamic/ thermodynamic sea ice model with a viscous- plastic rheology following Hibler (1979)"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
-            "values": [
-                "Other: parametrized (calculated in ocean)"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
-            "values": [
-                "Heat budget, minimum ice thickness prescibed"
-            ]
-        }, 
-        "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
-            "values": [
-                "Other: yes"
-            ]
-        }, 
-        "cmip6.seaice.radiative_processes.surface_albedo": {
-            "values": [
-                "Other: seperate for snow cover and sea ice, temperature dependent"
             ]
         }
     }
