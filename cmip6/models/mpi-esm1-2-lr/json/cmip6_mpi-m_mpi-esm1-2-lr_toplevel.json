@@ -4,5 +4,16 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "mpi-esm1-2-lr", 
     "topic": "toplevel", 
-    "content": {}
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "MPI Earth System Model running on low resolution grid"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "ECHAM6  & JSBACH  / MPIOM & HAMOCC coupled via OASIS3. _x000D_\nFor experiments with the MPI-ESM-LR /MR (compared to MPI-ESM-P): dynamic feedback of vegetation and land use on the climate development is fully included, land cover change data are included from external file, orbital parameters are calculated ar every radiation time step."
+            ]
+        }
+    }
 }
